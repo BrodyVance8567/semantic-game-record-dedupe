@@ -1,0 +1,14 @@
+{
+  "name": "semantic-game-record-dedupe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/semantic_dedupe.test.ts",
+    "start": "node --experimental-strip-types src/semantic_dedupe.ts"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "zod": "^3.0.0"
+  }
+}
